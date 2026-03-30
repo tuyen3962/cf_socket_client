@@ -1,5 +1,6 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library cf_socket_client;
+
+export 'client/centrifuge_socket.dart';
+export 'client/centrifuge_subscription.dart';
+export 'client/centrifuge_ack_subscription.dart';
+export 'client/centrifuge_socket_config.dart';
