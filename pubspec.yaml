@@ -1,6 +1,7 @@
 name: cf_socket_client
 description: "Centrifuge WebSocket client for Flutter."
 version: 1.0.0
+license: MIT
 homepage: https://github.com/tuyen3962/cf_socket_client.git
 repository: https://github.com/tuyen3962/cf_socket_client.git
 
