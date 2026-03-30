@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* TODO: Init source, setup Centrifuge socket client for simply use as socket io
