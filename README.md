@@ -79,3 +79,9 @@ Enter the WebSocket URL, JWT, and channel name in the app; try Connect, Subscrib
 
 - [Centrifugo — WebSocket](https://centrifugal.dev/docs/transports/websocket)
 - [Client JWT authentication](https://centrifugal.dev/docs/server/authentication)
+
+## License
+
+This package is released under the MIT License.
+
+It is a modified/forked version based on the original work by Centrifugal Labs LTD (MIT License).
