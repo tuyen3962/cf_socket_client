@@ -132,6 +132,7 @@ class _DemoHomePageState extends State<DemoHomePage> {
     return Scaffold(
       appBar: AppBar(title: const Text('cf_socket_client demo')),
       body: ListView(
+        physics: ClampingScrollPhysics(),
         padding: const EdgeInsets.all(16),
         children: [
           Text(
@@ -155,7 +156,6 @@ class _DemoHomePageState extends State<DemoHomePage> {
               labelText: 'Connection JWT',
               border: OutlineInputBorder(),
             ),
-            obscureText: true,
             maxLines: 2,
           ),
           const SizedBox(height: 12),
